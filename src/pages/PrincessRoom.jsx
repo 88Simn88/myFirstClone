@@ -43,9 +43,9 @@ const PrincessRoom = () => {
         <>
             <div className=" h-screen w-screen bg-[url('../img/room.jpeg')] bg-cover relative" >
 
-                <h1 className="w-40 pt-5 pl-5 font-bold text-xl ">Princess Room</h1>
+                <h1 className="w-40 pt-14 pl-5 font-bold text-xl ">Princess Room</h1>
                 <button 
-                className="absolute top-[55px] left-[55px] bg-gradient-to-r from-[#ededec] via-[#b9b9ab] to-[#ededec] hover:scale-90 border-solid border-2 border-black rounded-xl p-1 pl-5 pr-7 font-bold text-xl"
+                className="absolute top-[59px] left-[200px] bg-gradient-to-r from-[#ededec] via-[#b9b9ab] to-[#ededec] hover:scale-90 border-solid border-2 border-black rounded-xl p-1 pl-5 pr-7 font-bold text-xl"
                 onClick={toggleImageType}>
                     {useFirstImageType ? "Anime" : "Photo"}
                 </button>
